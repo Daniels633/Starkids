@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto - STAR_KIDS</title>
+        <link rel="stylesheet" href="reset.css/reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class = "anuncio">
+            <a href="https://www.facebook.com/I.E.I.STARKIDS"><img src="imagenes/facebook.png"></a>
+            <a href="https://www.tiktok.com/@starkids70"><img src="imagenes/tiktok.png"></a>
+            <h1>Contacto: 957273837</h1>
+        </section>
+        <header>
+            <div class="caja">
+                <h1><img src="imagenes/logo.png" alt="Logo de la Barbería Alura"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="misionyvision.html">Misión y Visión</a></li>
+                        <li><a href="matricula.html">Matrícula</a></li>
+                        <li><a href="admisiones.html">Traslados</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <img src="imagenes/contacto.png" class="imagen-diferenciales">
+            <form action="https://formspree.io/f/xknllqdp" method="post" name="emailContact">
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" name="nombreapellido" id="nombreapellido" class="input-padron" required>
+
+                <label for="correoelectronico">Correo Electrónico</label>
+                <input type="email" name="correoelectronico" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" name="telefono" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+                
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" name="mensaje" id="mensaje" class="input-padron" required></textarea>
+
+                <fieldset>
+                    <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                    
+
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="Telefono" id="radio-telefono">Teléfono</label>
+                    
+
+                    <label for="radio-whatsapp"><input type="radio" name="contacto"value="Whatsapp" id="radio-whastapp" checked>WhatsApp</label>
+                </fieldset>
+                <label class="checkbox"><input type="checkbox" name="recibir" checked>¿Le gustaría recibir novedades de STAR KIDS?</label>
+
+                <input class="enviar" type="submit" name="enviar" value="Reserva tu matrícula">
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>08 a.m ~ 1p.m</td>
+                    </tr>
+                    <tr>
+                        <td>Martes</td>
+                        <td>08 a.m ~ 1p.m</td>
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>
+                        <td>08 a.m ~ 1p.m</td>
+                    </tr>
+                    <tr>
+                        <td>Jueves</td>
+                        <td>08 a.m ~ 1p.m</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08 a.m ~ 1p.m</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer>
+            <div class="footerstyle">
+                <a href="index.html" id="footerstyle2"><img src="imagenes/InsigniaBN.png"></a>
+                <a href="reglamento.html" >REGLAMENTO</a>
+                <a href="contacto.html">CONTACTO</a>
+            <div>
+            <div class="copyright">
+                <p>CONTÁCTENOS</p>
+                <br>
+                <p>Teléfono: 957273837</p>
+                <p>Dirección: Av. Larry Jhonson LL 15A</p>
+                <p>Barrio Mollepampa - Baja</p>
+            </div>
+            <p class="copyright">&copy Copyright STAR KIDS - 2023</p>
+        </footer>
+    </body>
+</html>
